@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		579C4A3223F25B01008EE688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C4A3123F25B01008EE688 /* AppDelegate.swift */; };
+		579C4A3423F25B01008EE688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C4A3323F25B01008EE688 /* SceneDelegate.swift */; };
+		579C4A3623F25B01008EE688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579C4A3523F25B01008EE688 /* ViewController.swift */; };
+		579C4A3923F25B01008EE688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579C4A3723F25B01008EE688 /* Main.storyboard */; };
+		579C4A3B23F25B04008EE688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579C4A3A23F25B04008EE688 /* Assets.xcassets */; };
+		579C4A3E23F25B04008EE688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579C4A3C23F25B04008EE688 /* LaunchScreen.storyboard */; };
+		579C4A4623F25B46008EE688 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 579C4A4523F25B46008EE688 /* GoogleService-Info.plist */; };
+		C8841D8508C8DBC452FB74CC /* Pods_Music_by_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D899BE1B9E94017B4DC39C5C /* Pods_Music_by_Firebase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		579C4A2E23F25B01008EE688 /* Music by Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music by Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		579C4A3123F25B01008EE688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		579C4A3323F25B01008EE688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		579C4A3523F25B01008EE688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		579C4A3823F25B01008EE688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		579C4A3A23F25B04008EE688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		579C4A3D23F25B04008EE688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		579C4A3F23F25B04008EE688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579C4A4523F25B46008EE688 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD57807C18950E7162F8BEA2 /* Pods-Music by Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music by Firebase.release.xcconfig"; path = "Target Support Files/Pods-Music by Firebase/Pods-Music by Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		D899BE1B9E94017B4DC39C5C /* Pods_Music_by_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_by_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CB080EF1370C088D374C19 /* Pods-Music by Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music by Firebase.debug.xcconfig"; path = "Target Support Files/Pods-Music by Firebase/Pods-Music by Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		579C4A2B23F25B01008EE688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8841D8508C8DBC452FB74CC /* Pods_Music_by_Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BD18AE11296BA171D8DFD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D899BE1B9E94017B4DC39C5C /* Pods_Music_by_Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579C4A2523F25B01008EE688 = {
+			isa = PBXGroup;
+			children = (
+				579C4A3023F25B01008EE688 /* Music by Firebase */,
+				579C4A4523F25B46008EE688 /* GoogleService-Info.plist */,
+				579C4A2F23F25B01008EE688 /* Products */,
+				E4F6645307658FD2447E8240 /* Pods */,
+				4BD18AE11296BA171D8DFD13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		579C4A2F23F25B01008EE688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579C4A2E23F25B01008EE688 /* Music by Firebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		579C4A3023F25B01008EE688 /* Music by Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				579C4A3123F25B01008EE688 /* AppDelegate.swift */,
+				579C4A3323F25B01008EE688 /* SceneDelegate.swift */,
+				579C4A3523F25B01008EE688 /* ViewController.swift */,
+				579C4A3723F25B01008EE688 /* Main.storyboard */,
+				579C4A3A23F25B04008EE688 /* Assets.xcassets */,
+				579C4A3C23F25B04008EE688 /* LaunchScreen.storyboard */,
+				579C4A3F23F25B04008EE688 /* Info.plist */,
+			);
+			path = "Music by Firebase";
+			sourceTree = "<group>";
+		};
+		E4F6645307658FD2447E8240 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1CB080EF1370C088D374C19 /* Pods-Music by Firebase.debug.xcconfig */,
+				AD57807C18950E7162F8BEA2 /* Pods-Music by Firebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		579C4A2D23F25B01008EE688 /* Music by Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579C4A4223F25B04008EE688 /* Build configuration list for PBXNativeTarget "Music by Firebase" */;
+			buildPhases = (
+				D3F4FA3CE21C33B5951CD74E /* [CP] Check Pods Manifest.lock */,
+				579C4A2A23F25B01008EE688 /* Sources */,
+				579C4A2B23F25B01008EE688 /* Frameworks */,
+				579C4A2C23F25B01008EE688 /* Resources */,
+				DA97DB2A69BAB998C6F17341 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music by Firebase";
+			productName = "Music by Firebase";
+			productReference = 579C4A2E23F25B01008EE688 /* Music by Firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579C4A2623F25B01008EE688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hoang Dai Phong";
+				TargetAttributes = {
+					579C4A2D23F25B01008EE688 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 579C4A2923F25B01008EE688 /* Build configuration list for PBXProject "Music by Firebase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579C4A2523F25B01008EE688;
+			productRefGroup = 579C4A2F23F25B01008EE688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				579C4A2D23F25B01008EE688 /* Music by Firebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		579C4A2C23F25B01008EE688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579C4A3E23F25B04008EE688 /* LaunchScreen.storyboard in Resources */,
+				579C4A4623F25B46008EE688 /* GoogleService-Info.plist in Resources */,
+				579C4A3B23F25B04008EE688 /* Assets.xcassets in Resources */,
+				579C4A3923F25B01008EE688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3F4FA3CE21C33B5951CD74E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Music by Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA97DB2A69BAB998C6F17341 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music by Firebase/Pods-Music by Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music by Firebase/Pods-Music by Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Music by Firebase/Pods-Music by Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		579C4A2A23F25B01008EE688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579C4A3623F25B01008EE688 /* ViewController.swift in Sources */,
+				579C4A3223F25B01008EE688 /* AppDelegate.swift in Sources */,
+				579C4A3423F25B01008EE688 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		579C4A3723F25B01008EE688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579C4A3823F25B01008EE688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		579C4A3C23F25B04008EE688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579C4A3D23F25B04008EE688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		579C4A4023F25B04008EE688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		579C4A4123F25B04008EE688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		579C4A4323F25B04008EE688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1CB080EF1370C088D374C19 /* Pods-Music by Firebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7H2D5LYYU;
+				INFOPLIST_FILE = "Music by Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaiPhong.Music-by-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		579C4A4423F25B04008EE688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD57807C18950E7162F8BEA2 /* Pods-Music by Firebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7H2D5LYYU;
+				INFOPLIST_FILE = "Music by Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaiPhong.Music-by-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		579C4A2923F25B01008EE688 /* Build configuration list for PBXProject "Music by Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579C4A4023F25B04008EE688 /* Debug */,
+				579C4A4123F25B04008EE688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579C4A4223F25B04008EE688 /* Build configuration list for PBXNativeTarget "Music by Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579C4A4323F25B04008EE688 /* Debug */,
+				579C4A4423F25B04008EE688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 579C4A2623F25B01008EE688 /* Project object */;
+}
